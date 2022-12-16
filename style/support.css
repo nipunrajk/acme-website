@@ -1,0 +1,30 @@
+.image-support {
+  background-image: linear-gradient(
+      to left,
+      rgba(197, 197, 196, 0.1) 0%,
+      #151414 110%
+    ),
+    url(../assets/support-phone.jpeg);
+  height: 72vh;
+  background-size: 40% auto;
+  background-repeat: no-repeat;
+  background-position: right 60%;
+}
+
+/* #E5B000 */
+/* #161C26 */
+
+.head-container {
+  position: absolute;
+  top: 10%;
+  left: 14%;
+}
+
+/* .card-dem {
+  min-width: 16rem;
+  min-height: 16rem;
+} */
+
+.form-control {
+  border: 1px solid rgb(28, 26, 26);
+}

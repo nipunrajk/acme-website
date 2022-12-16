@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ACME - Product</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="components/style.css" />
+    <link rel="stylesheet" href="./style/product-description.css" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <!-- <script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=fetch&flags=gated"></script> -->
+  </head>
+  <body>
+    <header>
+      <div id="nav-placeholder"></div>
+
+      <nav class="class=navbar navbar-expand-lg navbar-dark bg-dark py-3">
+        <div class="container d-md-flex">
+          <span class="navbar-text ps-5 h4 fw-bold" style="color: white">
+            Gift Cards
+          </span>
+        </div>
+      </nav>
+    </header>
+
+    <section>
+      <div class="container pt-5">
+        <div class="row px-5">
+          <div class="col-5">
+            <img
+              class="img-fluid"
+              src="./assets/gift-card.jpeg"
+              style="height: 25rem; width: 30rem"
+            />
+          </div>
+          <div class="col-7">
+            <!-- description -->
+
+            <h5 class="fw-bold mb-0">Gift Card</h5>
+            <small class="fw-light">$ 25.00 USD</small><br />
+            <small class="fw-light text-muted">Quantity</small><br />
+            <div class="input-group mb-3 pt-2">
+              <div class="input-group-prepend">
+                <input type="number" class="form-control p-3" value="1" />
+                <button
+                  class="btn text-danger btn-outline-danger px-4"
+                  type="button"
+                >
+                  Add to Cart
+                </button>
+              </div>
+            </div>
+
+            <!-- text -->
+            <p class="fs-3 fw-bold">What's a Rich Text element?</p>
+            <p class="fs-6 fw-light">
+              The rich text element allows you to create and format headings,
+              paragraphs, blockquotes, images, and video all in one place
+              instead of having to add and format them individualv. lust
+              double-click and easilv create content.
+            </p>
+            <p class=".fs-5 fw-bold">Static and dynamic content editing</p>
+            <p class="fs-6 fw-light">
+              A rich text element can be used with static or dynamic content.
+              For static content. just drop it into any page and begin editing.
+              For dynamic content, add a rich text field to any collection and
+              then connect a rich text element to that field in the settings
+              panel. Voila!
+            </p>
+            <p class=".fs-5 fw-bold">
+              How to customize formatting for each rich text
+            </p>
+            <p class="fs-6 fw-light">
+              Headinas, paraaraphs, blockauotes, rigures. images. and rigure
+              captions can all be styled after a class is added to the rich text
+              element using the "When inside of' nested selector system
+            </p>
+            <p class="fs-5 fw-bold">Tweet about #AcmeOutdoors products</p>
+            <a class="btn btn-primary btn-tweet px-1" href="#!" role="button"
+              ><i class="bi bi-twitter"></i>Tweet</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div id="footer-placeholder"></div>
+
+    <!-- importing script tags -->
+    <script>
+      $(function () {
+        $('#nav-placeholder').load('./components/navbar.html')
+      })
+      $(function () {
+        $('#footer-placeholder').load('./components/footer.html')
+      })
+    </script>
+  </body>
+</html>

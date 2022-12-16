@@ -1,0 +1,80 @@
+.image {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(59, 55, 55, 0.1) 0%,
+      #151414 100%
+    ),
+    url(../assets/header.jpeg);
+  height: 72vh;
+  background-size: cover;
+  background-position: 60%;
+}
+
+.image2 {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(59, 55, 55, 0.1) 0%,
+      #151414 100%
+    ),
+    url(../assets/support.jpeg);
+  height: 70vh;
+  background-size: cover;
+  background-position: 80%;
+  background-repeat: no-repeat;
+  position: top right;
+}
+.btn-primary-outline {
+  background-color: transparent;
+  color: white;
+  border-color: white;
+}
+
+.card-head {
+  position: absolute;
+  top: 24%;
+  left: 12%;
+}
+
+.card {
+  border: none;
+}
+
+@media (min-width: 768px) {
+  .lead-text {
+    width: 75%;
+  }
+}
+
+.owner-img-row {
+  position: relative;
+}
+
+.owner-img {
+  background-image: url(../assets/owners.jpeg);
+  padding: 200px;
+  background-size: cover;
+  position: absolute;
+  top: 36px;
+  left: 154px;
+  bottom: 0;
+  width: 400px;
+  background-position: 80% 90%;
+  height: 420px;
+}
+.somesection {
+  margin-top: 50px !important;
+  position: relative;
+}
+body {
+  font-size: 17px;
+  font-family: Helvetica Neue;
+}
+
+.overlay-text {
+  font-size: 3.5vw;
+  float: right;
+  width: 65%; /*important*/
+  bottom: 21vw; /*important*/
+  padding: 50px;
+  /* background: #f7f7f7; */
+}

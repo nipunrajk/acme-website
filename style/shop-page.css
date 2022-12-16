@@ -1,0 +1,50 @@
+.img-shop {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(255, 0, 0, 0) 0%,
+      rgba(81, 87, 98, 0.65) 100%
+    ),
+    url(../assets/featured.jpeg);
+  height: 16rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.btn-container {
+  position: relative;
+  top: 10%;
+}
+
+.container-text {
+  position: absolute;
+  top: 70%;
+  left: 2%;
+}
+
+.btn-feature {
+  position: absolute;
+  top: 0;
+  right: 2%;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 18vw;
+  object-fit: cover;
+}
+/*  */
+
+.filterCard {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+/*  */
+.sale-btn {
+  position: absolute;
+  top: 4%;
+  right: 5%;
+}

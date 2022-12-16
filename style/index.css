@@ -1,0 +1,104 @@
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  background-color: black;
+}
+
+.btn-primary-outline {
+  background-color: transparent;
+  color: white;
+  border-color: white;
+}
+/* image */
+.image {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(59, 55, 55, 0.1) 0%,
+      #151414 100%
+    ),
+    url('../assets/header-index.jpg');
+  height: 72vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 60%;
+}
+
+.image2 {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(59, 55, 55, 0.1) 0%,
+      #211f1f 100%
+    ),
+    url('../assets/second-section.jpg');
+  height: 70vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 20% 50%;
+}
+
+/* section */
+
+.card-box {
+  height: 25rem;
+}
+
+.foot-icon-box {
+  position: absolute;
+  top: 98%;
+  left: 120%;
+  overflow: hidden;
+}
+
+.section-text {
+  position: relative;
+  top: 25%;
+  left: 30%;
+}
+
+.product-img-col {
+  height: 32rem;
+}
+
+.image-pd-1 {
+  background-image: url('../assets/featured.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 60%;
+  border-radius: 5px;
+}
+
+.image-pd-2 {
+  background-image: url('../assets/coffee-mug.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 60%;
+  border-radius: 5px;
+}
+
+.image-pd-3 {
+  background-image: url('../assets/backpack.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 60%;
+  border-radius: 5px;
+}
+
+.img-profile {
+  background-image: url('../assets/profile.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+}
+
+.profile-box {
+  width: 20rem;
+  height: 20rem;
+  position: absolute;
+  top: 16%;
+  left: 10%;
+}
+
+.text-contanier {
+  left: 8%;
+}
